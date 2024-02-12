@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\DELL\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\DELL\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Oracle Corporation Java 20.0.2)
+[debug]       Load.loadUnit: plugins took 87.025ms
+[debug]       Load.loadUnit: defsScala took 0.3074ms
+[debug] [Loading] Scanning directory C:\Users\DELL\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\DELL\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.257 ms
+[debug]           Load.resolveProject(global-plugins) took 32.7963ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\DELL\.sbt\1.0\plugins, plugins: List(<none>))) took 75.181ms
+[debug] [Loading] Done in C:\Users\DELL\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 102.534ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2307ms
+[debug]     Load.loadUnit(file:/C:/Users/DELL/.sbt/1.0/plugins/, ...) took 200.8906ms
+[debug]   Load.apply: load took 345.7888ms
+[debug]   Load.apply: resolveProjects took 4.0754ms
+[debug]   Load.apply: finalTransforms took 48.8911ms
+[debug]   Load.apply: config.delegates took 5.4143ms
+[debug]   Load.apply: Def.make(settings)... took 333.0663ms
+[debug]   Load.apply: structureIndex took 75.0698ms
+[debug]   Load.apply: mkStreams took 1.9006ms
+[info] loading global plugins from C:\Users\DELL\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 1757.2261ms
+[debug]           Load.loadUnit: plugins took 15.1127ms
+[debug]           Load.loadUnit: defsScala took 0.0018ms
+[debug] [Loading] Scanning directory C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\project
+[debug]             Load.loadUnit: mkEval took 0.9356ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.1394 ms
+[info] loading settings for project graphequivalence-build from idea.sbt ...
+[debug]               Load.resolveProject(graphequivalence-build) took 9.7344ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id graphequivalence-build, base: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\project, plugins: List(<none>))) took 11.515ms
+[debug] [Loading] Done in C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\project, returning: (graphequivalence-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1639.6606ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.206ms
+[debug]         Load.loadUnit(file:/C:/UIC%20EDUCATION/CS441/HW/MapReduce%20-%20HW1/GraphEquivalence/project/, ...) took 1659.7948ms
+[debug]       Load.apply: load took 1661.6037ms
+[debug]       Load.apply: resolveProjects took 0.1067ms
+[debug]       Load.apply: finalTransforms took 8.0042ms
+[debug]       Load.apply: config.delegates took 0.3749ms
+[debug]       Load.apply: Def.make(settings)... took 70.3824ms
+[debug]       Load.apply: structureIndex took 34.7072ms
+[debug]       Load.apply: mkStreams took 0.0024ms
+[info] loading project definition from C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 2898.1629ms
+[debug]     Load.loadUnit: defsScala took 0.0018ms
+[debug] [Loading] Scanning directory C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence
+[debug]       Load.loadUnit: mkEval took 0.213ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.6069 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 19.119ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence, plugins: List(<none>))) took 22.0611ms
+[debug] [Loading] Done in C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 855.9194ms
+[debug]     Load.loadUnit: cleanEvalClasses took 12.0954ms
+[debug]   Load.loadUnit(file:/C:/UIC%20EDUCATION/CS441/HW/MapReduce%20-%20HW1/GraphEquivalence/, ...) took 3766.9723ms
+[debug] Load.apply: load took 3769.0902ms
+[debug] Load.apply: resolveProjects took 0.1453ms
+[debug] Load.apply: finalTransforms took 19.4091ms
+[debug] Load.apply: config.delegates took 0.2592ms
+[debug] Load.apply: Def.make(settings)... took 48.6949ms
+[debug] Load.apply: structureIndex took 19.9938ms
+[debug] Load.apply: mkStreams took 0.0026ms
+[info] set current project to GraphEquivalence (in build file:/C:/UIC%20EDUCATION/CS441/HW/MapReduce%20-%20HW1/GraphEquivalence/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 51906 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 51906, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to GraphEquivalence (in build file:/C:/UIC%20EDUCATION/CS441/HW/MapReduce%20-%20HW1/GraphEquivalence/)
+[debug] > Exec(idea-shell, None, None)

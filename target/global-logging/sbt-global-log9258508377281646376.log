@@ -1,0 +1,62 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\target\scala-3.2.2\classes ...
+[error] -- [E006] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:1:7 
+[error] 1 |import NetGraphAlgebraDefs.GraphPerturbationAlgebra.ModificationRecord
+[error]   |       ^^^^^^^^^^^^^^^^^^^
+[error]   |       Not found: NetGraphAlgebraDefs
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:2:7 
+[error] 2 |import NetGraphAlgebraDefs.NetModelAlgebra.{actionType, outputDirectory}
+[error]   |       ^^^^^^^^^^^^^^^^^^^
+[error]   |       Not found: NetGraphAlgebraDefs
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:3:7 
+[error] 3 |import NetGraphAlgebraDefs.{GraphPerturbationAlgebra, NetGraph, NetModelAlgebra}
+[error]   |       ^^^^^^^^^^^^^^^^^^^
+[error]   |       Not found: NetGraphAlgebraDefs
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:4:7 
+[error] 4 |import NetModelAnalyzer.Analyzer
+[error]   |       ^^^^^^^^^^^^^^^^
+[error]   |       Not found: NetModelAnalyzer
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:5:7 
+[error] 5 |import Randomizer.SupplierOfRandomness
+[error]   |       ^^^^^^^^^^
+[error]   |       Not found: Randomizer
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:6:7 
+[error] 6 |import Utilz.{CreateLogger, NGSConstants}
+[error]   |       ^^^^^
+[error]   |       Not found: Utilz
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:7:11 
+[error] 7 |import com.google.common.graph.ValueGraph
+[error]   |       ^^^^^^^^^^
+[error]   |       value google is not a member of com
+[error] -- [E008] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:12:11 
+[error] 12 |import com.typesafe.config.ConfigFactory
+[error]    |       ^^^^^^^^^^^^
+[error]    |       value typesafe is not a member of com
+[error] -- [E006] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:13:7 
+[error] 13 |import guru.nidi.graphviz.engine.Format
+[error]    |       ^^^^
+[error]    |       Not found: guru
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:14:11 
+[error] 14 |import org.slf4j.Logger
+[error]    |       ^^^^^^^^^
+[error]    |       value slf4j is not a member of org
+[error] 10 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed Sep 19, 2023, 6:55:15 PM
+[debug] > Exec(idea-shell, None, None)

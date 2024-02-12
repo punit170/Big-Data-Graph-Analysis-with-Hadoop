@@ -1,0 +1,161 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Deprecation Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:462:90 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m462 |[0m    [33mval[0m [36mscores[0m = PGNodeMatches.foldLeft(mutable.Map[[35mNodeObject[0m, [35mInt[0m]())(([36macc[0m, [36mele[0m) => acc + (ele._1 -> [31m0[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                      ^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m[33mmethod[0m [35m+[0m in [33mtrait[0m [35mMapOps[0m is deprecated since 2.13.0: Consider requiring an immutable Map or fall back to Map.concat.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:608:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m608 |[0m        [33mcase[0m e: java.util.List[Integer] =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.List[Integer] cannot be checked at runtime because its type arguments can't be determined from java.util.List[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:626:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m626 |[0m        [33mcase[0m e: java.util.List[Integer] =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.List[Integer] cannot be checked at runtime because its type arguments can't be determined from java.util.List[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:639:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m639 |[0m        [33mcase[0m e: java.util.List[Integer] =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.List[Integer] cannot be checked at runtime because its type arguments can't be determined from java.util.List[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:652:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m652 |[0m        [33mcase[0m e: java.util.Map[Integer, Integer] =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.Map[Integer, Integer] cannot be checked at runtime because its type arguments can't be determined from java.util.List[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:676:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m676 |[0m        [33mcase[0m e: java.util.Map[Integer, Integer] =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.Map[Integer, Integer] cannot be checked at runtime because its type arguments can't be determined from java.util.List[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:699:13 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m699 |[0m        [33mcase[0m e: java.util.Map[Integer, Integer] =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m             ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.Map[Integer, Integer] cannot be checked at runtime because its type arguments can't be determined from java.util.List[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:208:27 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m208 |[0m          [33mcase[0m (nestedKey, innerData: java.util.HashMap[Integer, Integer]) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.HashMap[Integer, Integer] cannot be checked at runtime because its type arguments can't be determined from Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:210:27 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m210 |[0m          [33mcase[0m (nestedKey, innerList: java.util.List[Integer]) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.List[Integer] cannot be checked at runtime because its type arguments can't be determined from Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:224:27 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m224 |[0m          [33mcase[0m (nestedKey, innerData: java.util.HashMap[Integer, Integer]) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.HashMap[Integer, Integer] cannot be checked at runtime because its type arguments can't be determined from Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:226:27 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m226 |[0m          [33mcase[0m (nestedKey, innerList: java.util.List[Integer]) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for java.util.List[Integer] cannot be checked at runtime because its type arguments can't be determined from Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:234:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m234 |[0m      [33mcase[0m nodeIds: List[Int] => List.empty[(Int, Int)] ::: nodeIds.map(nid => (nid, nid))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:235:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m235 |[0m      [33mcase[0m _: List[(Int, Int)] => List.empty[(Int, Int)][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[(Int, Int)] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:238:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m238 |[0m      [33mcase[0m nodeIds: List[Int] => List.empty[Int] ::: nodeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:239:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m239 |[0m      [33mcase[0m _: List[(Int, Int)] => List.empty[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[(Int, Int)] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:242:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m242 |[0m      [33mcase[0m nodeIds: List[Int] => List.empty[Int] ::: nodeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:244:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m244 |[0m      [33mcase[0m nodeIds: immutable.Map[Int, Int] => List.empty[Int] ::: nodeIds.toList.map(entry => entry._2)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:247:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m247 |[0m      [33mcase[0m edgeIds: immutable.Map[Int, Int] => immutable.Map.empty[Int, Int] ++ edgeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:252:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m252 |[0m      [33mcase[0m edgeIds: immutable.Map[Int, Int] => immutable.Map.empty[Int, Int] ++ edgeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:257:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m257 |[0m      [33mcase[0m edgeIds: immutable.Map[Int, Int] => immutable.Map.empty[Int, Int] ++ edgeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:262:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m262 |[0m      [33mcase[0m nodeIds: List[Int] => List.empty[(Int, Int)] ::: nodeIds.map(nid => (nid, nid))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:263:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m263 |[0m      [33mcase[0m _: List[(Int, Int)] => List.empty[(Int, Int)][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[(Int, Int)] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:266:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m266 |[0m      [33mcase[0m nodeIds: List[Int] => List.empty[Int] ::: nodeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:267:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m267 |[0m      [33mcase[0m _: List[(Int, Int)] => List.empty[Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[(Int, Int)] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:270:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m270 |[0m      [33mcase[0m nodeIds: List[Int] => List.empty[Int] ::: nodeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for List[Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:271:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m271 |[0m      [33mcase[0m nodeIds: immutable.Map[Int, Int] => List.empty[Int] ::: nodeIds.toList.map(entry => entry._2)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:275:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m275 |[0m      [33mcase[0m edgeIds: immutable.Map[Int, Int] => immutable.Map.empty[Int, Int] ++ edgeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:280:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m280 |[0m      [33mcase[0m edgeIds: immutable.Map[Int, Int] => immutable.Map.empty[Int, Int] ++ edgeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\Main.scala:285:11 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m285 |[0m      [33mcase[0m edgeIds: immutable.Map[Int, Int] => immutable.Map.empty[Int, Int] ++ edgeIds[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[Int, Int] cannot be checked at runtime because its type arguments can't be determined from scala.collection.immutable.Iterable[(Integer, Integer) | Integer | Int] & [0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m  PartialFunction[Integer & Int, Integer | Int][0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m & Equals[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Unchecked Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\ModelAccuracyCheck.scala:192:19 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m192 |[0m        [33mcase[0m (key, value: immutable.Map[String, Any]) => result.put(key, convertToOrderedMap(value))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                   ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mthe type test for Map[String, Any] cannot be checked at runtime because its type arguments can't be determined from Any[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\src\main\scala\HelperFunctions.scala:459:37 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m459 |[0m      [33mif[0m NGNode == matchpair._1 [33mthen[0m [33mreturn[0m matchpair[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                     ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mNon local returns are no longer supported; use scala.util.control.NonLocalReturns instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m31 warnings found[0m

@@ -1,0 +1,15 @@
+Nodes:
+    Modified: [10, 11, 13]
+    Removed: [14]
+    Added: [21]
+Edges:
+    Modified:
+    Added:
+        13: 10
+        4: 21
+        10: 15
+    Removed:
+        13: 10
+        14: 13
+        17: 14
+        10: 15

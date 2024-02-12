@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\utilities_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoggingUtil[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\LoggingUtil[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoggingUtil\GraphUtil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\LoggingUtil\GraphUtil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoggingUtil\GraphUtil$CreateLogger$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\LoggingUtil\GraphUtil$CreateLogger$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoggingUtil\GraphUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\LoggingUtil\GraphUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoggingUtil\GraphUtil.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\LoggingUtil\GraphUtil.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Variables[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\Variables[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Variables\GraphConfigReader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\Variables\GraphConfigReader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Variables\GraphConfigReader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\Variables\GraphConfigReader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Variables\GraphConfigReader.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\UIC EDUCATION\CS441\HW\MapReduce - HW1\GraphEquivalence\Utilities\target\scala-3.2.2\classes\Variables\GraphConfigReader.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
