@@ -212,7 +212,4 @@ The following errors may occur during execution:
 ## Need Help?
 
 Reach out to me!
-
 **Email:** [punit.malpani@gmail.com](mailto:punit.malpani@gmail.com)
-
-Don't hesitate to contact us!
