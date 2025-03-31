@@ -1,0 +1,13 @@
+.idea/
+.bsp/
+target
+GraphEquivalenceUtilities/.bsp
+GraphEquivalenceUtilities/.idea
+GraphEquivalenceUtilities/target
+GraphEquivalenceUtilities/project/target
+project/project/target
+project/target
+Utilities/.bsp
+Utilities/.idea
+Utilities/project/target
+Utilities/target
